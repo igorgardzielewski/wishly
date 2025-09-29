@@ -1,0 +1,260 @@
+{
+  "admin-edit-modal":
+  {
+    "edit-user": "Edit User: ",
+    "error-updating": "An error occurred while updating the user.",
+    "username": "Username",
+    "full-name": "Full Name",
+    "email": "Email",
+    "account-type": "Account Type",
+    "user": "USER",
+    "account-active": "Account Active",
+    "status": "Status",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save-changes": "Save Changes"
+  },
+  "admin-page": {
+    "admin-panel": "Admin Panel"
+  },
+  "admin-post": {
+    "delete-confirm": "Are you sure you want to delete this post?",
+    "delete-fail": "Failed to delete post: ",
+    "delete-fail-alert": "Could not delete post.",
+    "manage-posts": "Manage Posts",
+    "post-search-placeholder":"Search posts by title..." ,
+    "stats": "Stats",
+    "actions": "Actions",
+    "likes": "Likes",
+    "comments": "Comments",
+    "private" : "Private",
+    "public" : "Public",
+    "view-post" : "View Post",
+    "delete-post-title": "Delete Post",
+    "post": "Post",
+    "author": "Author",
+    "status": "Status"
+  },
+  "admin-report":{
+    "content-not-found": "Reported content was not found (it may have been already deleted).",
+    "content-by": "Conteny by",
+    "reported-user-not-found": "Reported user was not found (they may have been already deleted).",
+    "reported-user": "Reported user:",
+    "alert-resolve-report-fail": "Could not resolve report.",
+    "pending-reports": "Pending Reports",
+    "report-from": "Report from",
+    "for": "for:",
+    "ignore": "Ignore",
+    "delete-user": "Delete User",
+    "delete-content": "Delete Content",
+    "no-reports": "No pending reports.",
+    "great": "Great job! Queue is empty"
+  },
+  "admin-route": {
+    "loading": "Loading..."
+  },
+  "admin-user": {
+    "delete-confirm": "Are you sure you want to delete this user?",
+    "manage-users": "Manage Users",
+    "search-users-placeholder": "Search users...",
+    "user": "User",
+    "role": "Role",
+    "status": "Status",
+    "actions": "Actions",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "comment": {
+    "delete-confirm": "Are you sure you want to delete this comment?",
+    "alert-fail-delte": "Could not delete the comment"
+  },
+  "create-post": {
+    "fail-create": "Failed to create post. Please try again",
+    "create-new": "Create a New Post",
+    "review": "Review the details and add your description.",
+    "desc": "Description",
+    "desc-placeholder": "Write something about this item...",
+    "cancel": "Cancel",
+    "sharing": "Sharing...",
+    "share": "Share Post"
+  },
+  "edit-profile": {
+    "image-upload-fail": "Image upload failed",
+    "error-updating": "Error updating profile",
+    "public": "Public Profile",
+    "change-photo": "Change photo",
+    "username": "Username",
+    "full-name": "Full Name",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save": "Save Changes",
+    "err-same-password": "New password cannot be the same as the current one.",
+    "err-password-match": "New passwords do not match.",
+    "password-change": "Password changed successfully!",
+    "failed-to-change": "Failed to change password. Check your current password.",
+    "password-security": "Password & Security",
+    "current-pswd": "Current Password",
+    "new-pswd": "New Password",
+    "confirm-new-pswd": "Confirm New Password",
+    "change-pswd": "Change Password",
+    "edit-p-label": "Edit Profile",
+    "pswd_security": "Password & Security",
+    "settings": "Settings",
+    "logout": "Log Out"
+  },
+  "explore": {
+    "no-posts": "No posts to explore.",
+    "comeback": "Come back later!"
+  },
+  "login": {
+    "invalid-u-o-p": "Invalid username or password",
+    "greeting": "Your wishlist, reimagined",
+    "welcome": "Welcome Back",
+    "details": "Please enter your details to log in.",
+    "email-placeholder": "email",
+    "password-placeholder": "password",
+    "remember-me": "Remember me",
+    "forgot-pswd": "Forgot your password?",
+    "login": "Log in",
+    "or-continue": "Or continue with",
+    "continue-google": "Continue with Google",
+    "dont-acc": "Don't have an account?",
+    "signup": "Sign up"
+  },
+  "navbar":{
+    "alert-url": "Could not process the URL.",
+    "alert-valid-url": "Please provide a valid URL.",
+    "not-like-content": "liked your post",
+    "not-com-content": "commented on your post",
+    "not-follow-content": "started following you",
+    "search-user-placeholder": "Search for users...",
+    "no-users-f": "No users found",
+    "add-new-item": "Add a new item",
+    "add": "Add",
+    "not": "Notifications",
+    "not-read": "Make all as read",
+    "no-not": "You have no notifications yet.",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "search-placeholder": "Search users...",
+    "lang-title": "Switch language",
+    "lang-text": "Language",
+    "admin-title": "Admin Panel",
+    "addUrlPlaceholder": "https://...",
+    "...": "..."
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "post": {
+    "share": "Share",
+    "comms": "Comments",
+    "no-comms-inf": "No comments yet. Be the first to comment!",
+    "comm-placeholder": "Add a comment..."
+  },
+  "postpage": {
+    "back": "Back"
+  },
+  "post-set-menu": {
+    "alert-post-vis": "Could not update post visibility",
+    "delete-confirm": "Are you sure you want to delete this post?",
+    "make-public": "Make Public",
+    "make-private": "Make Private",
+    "delete": "Delete"
+  },
+  "profile-page": {
+    "no-posts-user": "You haven't posted anything yet",
+    "no-posts": "No Posts Yet",
+    "encourage-share": "Share your first item to see it here.",
+    "userSharesPosts": "When {{username}} shares posts, you'll see them here.",
+    "no-private-posts": "No Private Posts",
+    "items-private": "Items you mark as private will appear here.",
+    "liked-posts": "No Liked Posts",
+    "items-liked": "Posts you like will appear here.",
+    "no-posts-show": "No posts to show",
+    "posts": "Posts",
+    "followers": "Followers",
+    "following": "Following",
+    "follow": "Follow",
+    "edit": "Edit Profile",
+    "report-user": "Report User",
+    "tab": {
+      "posts": "Posts",
+      "private": "Private",
+      "liked": "Liked"
+    }
+  },
+  "registration": {
+    "joinCommunity": "Join the community.",
+    "createAccount": "Create an Account",
+    "startJourney": "Start your wishlist journey today.",
+    "placeholder": {
+      "username": "Username",
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "passwordMismatch": "Passwords do not match.",
+    "failedDefault": "Registration failed. Please try again.",
+    "createAccountButton": "Create Account",
+    "termsPrefix": "By creating an account, you agree to our",
+    "termsLink": "Terms of Service",
+    "or": "Or",
+    "signUpWithGoogle": "Sign up with Google",
+    "hasAccountPrefix": "Already have an account?",
+    "loginLink": "Log in"
+  },
+  "reportModal": {
+    "title": "Report Content",
+    "subtitle": "Why are you reporting this {{entityType}}? Your report is anonymous.",
+    "submitButton": "Submit Report",
+    "submittingButton": "Submitting...",
+    "cancelButton": "Cancel",
+    "closeButton": "Close",
+    "successTitle": "Thank You!",
+    "successMessage": "Your report helps us keep the community safe. Our moderators will review it shortly.",
+    "errorDefault": "Failed to submit report. You may have already reported this content.",
+    "errorNoReason": "Please select a reason for the report.",
+    "reasons": {
+      "spam": "It's spam",
+      "nudity": "Nudity or sexual activity",
+      "hateSpeech": "Hate speech or symbols",
+      "falseInfo": "False Information",
+      "scam": "Scam or fraud",
+      "other": "Something else"
+    },
+    "entityTypes": {
+      "POST": "post",
+      "COMMENT": "comment",
+      "USER": "user"
+    }
+  },
+  "searchPage": {
+    "title": "Search results for:",
+    "noResults": "No users found for \"{{query}}\".",
+    "loading": "Loading results..."
+  },
+  "shareModal": {
+    "title": "Share Post",
+    "subtitle": "Share this link with your friends!",
+    "buttonCopy": "Copy",
+    "buttonCopied": "Copied!",
+    "errorCopy": "Failed to copy link."
+  },
+  "welcomePage": {
+    "title": "Welcome to Wishly, {{username}}!",
+    "subtitle": "Let's set up your profile.",
+    "avatarAlt": "Avatar",
+    "uploadButton": "Upload a photo",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Your Full Name",
+    "bioLabel": "Bio",
+    "bioPlaceholder": "Tell us something about yourself...",
+    "submitButton": "Finish Setup & Start Exploring",
+    "submitButtonSaving": "Saving...",
+    "errorUpload": "Image upload failed.",
+    "errorProfileUpdate": "Failed to finalize profile setup."
+  }
+}

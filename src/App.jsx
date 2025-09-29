@@ -1,38 +1,54 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import MainView from './MainView.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ProfilePage from "./ProfilePage.jsx"
+import PostPage from "./PostPage.jsx"
+import ExplorePage from "./ExplorePage.jsx"
+import EditProfilePage from "./EditProfilePage.jsx";
+import CreatePostPage from "./CreatePostPage.jsx";
+import LoginPage from "./LoginPage.jsx";
+import RegistrationPage from "./RegistrationPage.jsx";
+import WelcomePage from "./WelcomePage.jsx";
+import SearchPage from "./SearchPage.jsx";
+import AdminRoute from "./AdminRoute.jsx";
+import AdminPage from "./AdminPage.jsx";
+import OAuth2RedirectHandler from "./OAuth2RedirectHandler.jsx";
+import GuestRoute from "./GuestRoute.jsx";
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div>
-      <div class="bg-red-500">
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-        <h1 class="!text-blue-500 text-3xl font-bold underline text-center">
-          Twój tekst
-        </h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    return (
+      <Router>
+          <Routes>
+              <Route path="/" element={<MainView />} />
+              <Route path="/profile/:username" element={<ProfilePage />}/>
+              <Route path="/post/:postId" element={<PostPage />}/>
+              <Route path="/explore" element={<ExplorePage />}/>
+              <Route path="/profile/edit" element={<EditProfilePage />}/>
+              <Route path="/posts/create" element={<CreatePostPage />} />
+              <Route
+                  path="/login"
+                  element={
+                      <GuestRoute>
+                          <LoginPage />
+                      </GuestRoute>
+                  }
+              />
+              <Route
+                  path="/register"
+                  element={
+                      <GuestRoute>
+                          <RegistrationPage />
+                      </GuestRoute>
+                  }
+              />
+              <Route path="/welcome" element={<WelcomePage />} />
+              <Route path="/search" element={<SearchPage />} />
+              <Route element={<AdminRoute />}>
+                  <Route path="/admin" element={<AdminPage />} />
+              </Route>
+              <Route path="/oauth-redirect" element={<OAuth2RedirectHandler />} />
+          </Routes>
+      </Router>
   )
 }
-
 export default App

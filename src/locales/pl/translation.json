@@ -1,0 +1,259 @@
+{
+  "admin-edit-modal": {
+    "edit-user": "Edytuj użytkownika: ",
+    "error-updating": "Wystąpił błąd podczas aktualizacji użytkownika.",
+    "username": "Nazwa użytkownika",
+    "full-name": "Pełne imię i nazwisko",
+    "email": "E-mail",
+    "account-type": "Typ konta",
+    "user": "UŻYTKOWNIK",
+    "account-active": "Konto aktywne",
+    "status": "Status",
+    "cancel": "Anuluj",
+    "saving": "Zapisywanie...",
+    "save-changes": "Zapisz zmiany"
+  },
+  "admin-page": {
+    "admin-panel": "Panel administratora"
+  },
+  "admin-post": {
+    "delete-confirm": "Czy na pewno chcesz usunąć ten post?",
+    "delete-fail": "Nie udało się usunąć posta: ",
+    "delete-fail-alert": "Nie można było usunąć posta.",
+    "manage-posts": "Zarządzaj postami",
+    "post-search-placeholder": "Szukaj postów po tytule...",
+    "stats": "Statystyki",
+    "actions": "Akcje",
+    "likes": "Polubienia",
+    "comments": "Komentarze",
+    "private": "Prywatny",
+    "public": "Publiczny",
+    "view-post": "Wyświetl post",
+    "delete-post-title": "Usuń post",
+    "post": "Post",
+    "author": "Autor",
+    "status": "Status"
+  },
+  "admin-report": {
+    "content-not-found": "Zgłoszona treść nie została znaleziona (mogła zostać już usunięta).",
+    "content-by": "Treść od",
+    "reported-user-not-found": "Zgłoszony użytkownik nie został znaleziony (mógł zostać już usunięty).",
+    "reported-user": "Zgłoszony użytkownik:",
+    "alert-resolve-report-fail": "Nie można było rozwiązać zgłoszenia.",
+    "pending-reports": "Oczekujące zgłoszenia",
+    "report-from": "Zgłoszenie od",
+    "for": "dla:",
+    "ignore": "Ignoruj",
+    "delete-user": "Usuń użytkownika",
+    "delete-content": "Usuń treść",
+    "no-reports": "Brak oczekujących zgłoszeń.",
+    "great": "Świetna robota! Kolejka jest pusta"
+  },
+  "admin-route": {
+    "loading": "Ładowanie..."
+  },
+  "admin-user": {
+    "delete-confirm": "Czy na pewno chcesz usunąć tego użytkownika?",
+    "manage-users": "Zarządzaj użytkownikami",
+    "search-users-placeholder": "Szukaj użytkowników...",
+    "user": "Użytkownik",
+    "role": "Rola",
+    "status": "Status",
+    "actions": "Akcje",
+    "active": "Aktywny",
+    "inactive": "Nieaktywny"
+  },
+  "comment": {
+    "delete-confirm": "Czy na pewno chcesz usunąć ten komentarz?",
+    "alert-fail-delte": "Nie można było usunąć komentarza"
+  },
+  "create-post": {
+    "fail-create": "Nie udało się utworzyć posta. Spróbuj ponownie",
+    "create-new": "Utwórz nowy post",
+    "review": "Sprawdź szczegóły i dodaj swój opis.",
+    "desc": "Opis",
+    "desc-placeholder": "Napisz coś o tym przedmiocie...",
+    "cancel": "Anuluj",
+    "sharing": "Udostępnianie...",
+    "share": "Udostępnij post"
+  },
+  "edit-profile": {
+    "image-upload-fail": "Nie udało się przesłać obrazu",
+    "error-updating": "Błąd podczas aktualizacji profilu",
+    "public": "Profil publiczny",
+    "change-photo": "Zmień zdjęcie",
+    "username": "Nazwa użytkownika",
+    "full-name": "Pełne imię i nazwisko",
+    "cancel": "Anuluj",
+    "saving": "Zapisywanie...",
+    "save": "Zapisz zmiany",
+    "err-same-password": "Nowe hasło nie może być takie samo jak obecne.",
+    "err-password-match": "Nowe hasła nie pasują do siebie.",
+    "password-change": "Hasło zmienione pomyślnie!",
+    "failed-to-change": "Nie udało się zmienić hasła. Sprawdź swoje obecne hasło.",
+    "password-security": "Hasło i bezpieczeństwo",
+    "current-pswd": "Obecne hasło",
+    "new-pswd": "Nowe hasło",
+    "confirm-new-pswd": "Potwierdź nowe hasło",
+    "change-pswd": "Zmień hasło",
+    "edit-p-label": "Edytuj profil",
+    "pswd_security": "Hasło i bezpieczeństwo",
+    "settings": "Ustawienia",
+    "logout": "Wyloguj się"
+  },
+  "explore": {
+    "no-posts": "Brak postów do przeglądania.",
+    "comeback": "Wróć później!"
+  },
+  "login": {
+    "invalid-u-o-p": "Nieprawidłowa nazwa użytkownika lub hasło",
+    "greeting": "Twoja lista życzeń, na nowo",
+    "welcome": "Witaj ponownie",
+    "details": "Wprowadź swoje dane, aby się zalogować.",
+    "email-placeholder": "e-mail",
+    "password-placeholder": "hasło",
+    "remember-me": "Zapamiętaj mnie",
+    "forgot-pswd": "Zapomniałeś hasła?",
+    "login": "Zaloguj się",
+    "or-continue": "Lub kontynuuj za pomocą",
+    "continue-google": "Kontynuuj z Google",
+    "dont-acc": "Nie masz konta?",
+    "signup": "Zarejestruj się"
+  },
+  "navbar": {
+    "alert-url": "Nie można było przetworzyć adresu URL.",
+    "alert-valid-url": "Podaj prawidłowy adres URL.",
+    "not-like-content": "polubił Twój post",
+    "not-com-content": "skomentował Twój post",
+    "not-follow-content": "zaczął Cię obserwować",
+    "search-user-placeholder": "Szukaj użytkowników...",
+    "no-users-f": "Nie znaleziono użytkowników",
+    "add-new-item": "Dodaj nowy przedmiot",
+    "add": "Dodaj",
+    "not": "Powiadomienia",
+    "not-read": "Oznacz wszystkie jako przeczytane",
+    "no-not": "Nie masz jeszcze żadnych powiadomień.",
+    "login": "Zaloguj się",
+    "signup": "Zarejestruj się",
+    "search-placeholder": "Szukaj użytkowników...",
+    "lang-title": "Zmień język",
+    "lang-text": "Język",
+    "admin-title": "Panel administratora",
+    "addUrlPlaceholder": "https://...",
+    "...": "..."
+  },
+  "pagination": {
+    "prev": "Poprzedni",
+    "next": "Następny"
+  },
+  "post": {
+    "share": "Udostępnij",
+    "comms": "Komentarze",
+    "no-comms-inf": "Brak komentarzy. Bądź pierwszy, który skomentuje!",
+    "comm-placeholder": "Dodaj komentarz..."
+  },
+  "postpage": {
+    "back": "Wstecz"
+  },
+  "post-set-menu": {
+    "alert-post-vis": "Nie można zaktualizować widoczności posta",
+    "delete-confirm": "Czy na pewno chcesz usunąć ten post?",
+    "make-public": "Upublicznij",
+    "make-private": "Uczyń prywatnym",
+    "delete": "Usuń"
+  },
+  "profile-page": {
+    "no-posts-user": "Jeszcze nic nie opublikowałeś",
+    "no-posts": "Brak postów",
+    "encourage-share": "Udostępnij swój pierwszy przedmiot, aby zobaczyć go tutaj.",
+    "userSharesPosts": "Gdy {{username}} udostępnia posty, zobaczysz je tutaj.",
+    "no-private-posts": "Brak prywatnych postów",
+    "items-private": "Elementy oznaczone jako prywatne pojawią się tutaj.",
+    "liked-posts": "Brak polubionych postów",
+    "items-liked": "Posty, które polubisz, pojawią się tutaj.",
+    "no-posts-show": "Brak postów do wyświetlenia",
+    "posts": "Posty",
+    "followers": "Obserwujący",
+    "following": "Obserwowani",
+    "follow": "Obserwuj",
+    "edit": "Edytuj profil",
+    "report-user": "Zgłoś użytkownika",
+    "tab": {
+      "posts": "Posty",
+      "private": "Prywatne",
+      "liked": "Polubione"
+    }
+  },
+  "registration": {
+    "joinCommunity": "Dołącz do społeczności.",
+    "createAccount": "Utwórz konto",
+    "startJourney": "Rozpocznij swoją podróż z listą życzeń już dziś.",
+    "placeholder": {
+      "username": "Nazwa użytkownika",
+      "fullName": "Pełne imię i nazwisko",
+      "email": "E-mail",
+      "password": "Hasło",
+      "confirmPassword": "Potwierdź hasło"
+    },
+    "passwordMismatch": "Hasła nie pasują do siebie.",
+    "failedDefault": "Rejestracja nie powiodła się. Spróbuj ponownie.",
+    "createAccountButton": "Utwórz konto",
+    "termsPrefix": "Tworząc konto, zgadzasz się na nasze",
+    "termsLink": "Warunki korzystania z usługi",
+    "or": "Lub",
+    "signUpWithGoogle": "Zarejestruj się za pomocą Google",
+    "hasAccountPrefix": "Masz już konto?",
+    "loginLink": "Zaloguj się"
+  },
+  "reportModal": {
+    "title": "Zgłoś treść",
+    "subtitle": "Dlaczego zgłaszasz ten {{entityType}}? Twoje zgłoszenie jest anonimowe.",
+    "submitButton": "Wyślij zgłoszenie",
+    "submittingButton": "Wysyłanie...",
+    "cancelButton": "Anuluj",
+    "closeButton": "Zamknij",
+    "successTitle": "Dziękujemy!",
+    "successMessage": "Twoje zgłoszenie pomaga nam dbać o bezpieczeństwo społeczności. Nasi moderatorzy sprawdzą je wkrótce.",
+    "errorDefault": "Nie udało się wysłać zgłoszenia. Być może już zgłosiłeś tę treść.",
+    "errorNoReason": "Wybierz powód zgłoszenia.",
+    "reasons": {
+      "spam": "To spam",
+      "nudity": "Nagość lub aktywność seksualna",
+      "hateSpeech": "Mowa nienawiści lub symbole",
+      "falseInfo": "Fałszywe informacje",
+      "scam": "Oszustwo lub wyłudzenie",
+      "other": "Coś innego"
+    },
+    "entityTypes": {
+      "POST": "POST",
+      "COMMENT": "COMMENT",
+      "USER": "USER"
+    }
+  },
+  "searchPage": {
+    "title": "Wyniki wyszukiwania dla:",
+    "noResults": "Nie znaleziono użytkowników dla „{{query}}”.",
+    "loading": "Ładowanie wyników..."
+  },
+  "shareModal": {
+    "title": "Udostępnij post",
+    "subtitle": "Udostępnij ten link swoim znajomym!",
+    "buttonCopy": "Kopiuj",
+    "buttonCopied": "Skopiowano!",
+    "errorCopy": "Nie udało się skopiować linku."
+  },
+  "welcomePage": {
+    "title": "Witaj w Wishly, {{username}}!",
+    "subtitle": "Ustawmy Twój profil.",
+    "avatarAlt": "Awatar",
+    "uploadButton": "Prześlij zdjęcie",
+    "fullNameLabel": "Pełne imię i nazwisko",
+    "fullNamePlaceholder": "Twoje pełne imię i nazwisko",
+    "bioLabel": "Bio",
+    "bioPlaceholder": "Opowiedz nam coś o sobie...",
+    "submitButton": "Zakończ konfigurację i rozpocznij eksplorację",
+    "submitButtonSaving": "Zapisywanie...",
+    "errorUpload": "Nie udało się przesłać obrazu.",
+    "errorProfileUpdate": "Nie udało się sfinalizować konfiguracji profilu."
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "admin-edit-modal": {
+    "edit-user": "Benutzer bearbeiten: ",
+    "error-updating": "Beim Aktualisieren des Benutzers ist ein Fehler aufgetreten.",
+    "username": "Benutzername",
+    "full-name": "Vollständiger Name",
+    "email": "E-Mail",
+    "account-type": "Kontotyp",
+    "user": "BENUTZER",
+    "account-active": "Konto aktiv",
+    "status": "Status",
+    "cancel": "Abbrechen",
+    "saving": "Wird gespeichert...",
+    "save-changes": "Änderungen speichern"
+  },
+  "admin-page": {
+    "admin-panel": "Admin-Panel"
+  },
+  "admin-post": {
+    "delete-confirm": "Möchten Sie diesen Beitrag wirklich löschen?",
+    "delete-fail": "Fehler beim Löschen des Beitrags: ",
+    "delete-fail-alert": "Beitrag konnte nicht gelöscht werden.",
+    "manage-posts": "Beiträge verwalten",
+    "post-search-placeholder": "Beiträge nach Titel suchen...",
+    "stats": "Statistiken",
+    "actions": "Aktionen",
+    "likes": "Likes",
+    "comments": "Kommentare",
+    "private": "Privat",
+    "public": "Öffentlich",
+    "view-post": "Beitrag ansehen",
+    "delete-post-title": "Beitrag löschen",
+    "post": "Beitrag",
+    "author": "Autor",
+    "status": "Status"
+  },
+  "admin-report": {
+    "content-not-found": "Gemeldeter Inhalt wurde nicht gefunden (er wurde möglicherweise bereits gelöscht).",
+    "content-by": "Inhalt von",
+    "reported-user-not-found": "Gemeldeter Benutzer wurde nicht gefunden (er wurde möglicherweise bereits gelöscht).",
+    "reported-user": "Gemeldeter Benutzer:",
+    "alert-resolve-report-fail": "Bericht konnte nicht aufgelöst werden.",
+    "pending-reports": "Ausstehende Berichte",
+    "report-from": "Bericht von",
+    "for": "für:",
+    "ignore": "Ignorieren",
+    "delete-user": "Benutzer löschen",
+    "delete-content": "Inhalt löschen",
+    "no-reports": "Keine ausstehenden Berichte.",
+    "great": "Großartige Arbeit! Die Warteschlange ist leer"
+  },
+  "admin-route": {
+    "loading": "Lädt..."
+  },
+  "admin-user": {
+    "delete-confirm": "Möchten Sie diesen Benutzer wirklich löschen?",
+    "manage-users": "Benutzer verwalten",
+    "search-users-placeholder": "Benutzer suchen...",
+    "user": "Benutzer",
+    "role": "Rolle",
+    "status": "Status",
+    "actions": "Aktionen",
+    "active": "Aktiv",
+    "inactive": "Inaktiv"
+  },
+  "comment": {
+    "delete-confirm": "Möchten Sie diesen Kommentar wirklich löschen?",
+    "alert-fail-delte": "Kommentar konnte nicht gelöscht werden"
+  },
+  "create-post": {
+    "fail-create": "Fehler beim Erstellen des Beitrags. Bitte versuchen Sie es erneut",
+    "create-new": "Neuen Beitrag erstellen",
+    "review": "Überprüfen Sie die Details und fügen Sie Ihre Beschreibung hinzu.",
+    "desc": "Beschreibung",
+    "desc-placeholder": "Schreiben Sie etwas über diesen Artikel...",
+    "cancel": "Abbrechen",
+    "sharing": "Wird geteilt...",
+    "share": "Beitrag teilen"
+  },
+  "edit-profile": {
+    "image-upload-fail": "Bild-Upload fehlgeschlagen",
+    "error-updating": "Fehler beim Aktualisieren des Profils",
+    "public": "Öffentliches Profil",
+    "change-photo": "Foto ändern",
+    "username": "Benutzername",
+    "full-name": "Vollständiger Name",
+    "cancel": "Abbrechen",
+    "saving": "Wird gespeichert...",
+    "save": "Änderungen speichern",
+    "err-same-password": "Das neue Passwort darf nicht mit dem aktuellen übereinstimmen.",
+    "err-password-match": "Neue Passwörter stimmen nicht überein.",
+    "password-change": "Passwort erfolgreich geändert!",
+    "failed-to-change": "Passwort konnte nicht geändert werden. Überprüfen Sie Ihr aktuelles Passwort.",
+    "password-security": "Passwort & Sicherheit",
+    "current-pswd": "Aktuelles Passwort",
+    "new-pswd": "Neues Passwort",
+    "confirm-new-pswd": "Neues Passwort bestätigen",
+    "change-pswd": "Passwort ändern",
+    "edit-p-label": "Profil bearbeiten",
+    "pswd_security": "Passwort & Sicherheit",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
+  },
+  "explore": {
+    "no-posts": "Keine Beiträge zum Erkunden.",
+    "comeback": "Kommen Sie später wieder!"
+  },
+  "login": {
+    "invalid-u-o-p": "Ungültiger Benutzername oder Passwort",
+    "greeting": "Ihre Wunschliste, neu gedacht",
+    "welcome": "Willkommen zurück",
+    "details": "Bitte geben Sie Ihre Daten ein, um sich anzumelden.",
+    "email-placeholder": "E-Mail",
+    "password-placeholder": "Passwort",
+    "remember-me": "Angemeldet bleiben",
+    "forgot-pswd": "Passwort vergessen?",
+    "login": "Anmelden",
+    "or-continue": "Oder fortfahren mit",
+    "continue-google": "Mit Google fortfahren",
+    "dont-acc": "Kein Konto?",
+    "signup": "Registrieren"
+  },
+  "navbar": {
+    "alert-url": "URL konnte nicht verarbeitet werden.",
+    "alert-valid-url": "Bitte geben Sie eine gültige URL an.",
+    "not-like-content": "hat deinen Beitrag geliked",
+    "not-com-content": "hat deinen Beitrag kommentiert",
+    "not-follow-content": "ist dir gefolgt",
+    "search-user-placeholder": "Benutzer suchen...",
+    "no-users-f": "Keine Benutzer gefunden",
+    "add-new-item": "Neuen Artikel hinzufügen",
+    "add": "Hinzufügen",
+    "not": "Benachrichtigungen",
+    "not-read": "Alle als gelesen markieren",
+    "no-not": "Sie haben noch keine Benachrichtigungen.",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "search-placeholder": "Benutzer suchen...",
+    "lang-title": "Sprache wechseln",
+    "lang-text": "Sprache",
+    "admin-title": "Admin-Panel",
+    "addUrlPlaceholder": "https://...",
+    "...": "..."
+  },
+  "pagination": {
+    "prev": "Zurück",
+    "next": "Weiter"
+  },
+  "post": {
+    "share": "Teilen",
+    "comms": "Kommentare",
+    "no-comms-inf": "Noch keine Kommentare. Seien Sie der Erste, der kommentiert!",
+    "comm-placeholder": "Kommentar hinzufügen..."
+  },
+  "postpage": {
+    "back": "Zurück"
+  },
+  "post-set-menu": {
+    "alert-post-vis": "Beitragssichtbarkeit konnte nicht aktualisiert werden",
+    "delete-confirm": "Möchten Sie diesen Beitrag wirklich löschen?",
+    "make-public": "Öffentlich machen",
+    "make-private": "Privat machen",
+    "delete": "Löschen"
+  },
+  "profile-page": {
+    "no-posts-user": "Sie haben noch nichts gepostet",
+    "no-posts": "Noch keine Beiträge",
+    "encourage-share": "Teilen Sie Ihren ersten Artikel, um ihn hier zu sehen.",
+    "userSharesPosts": "Wenn {{username}} Beiträge teilt, werden Sie sie hier sehen.",
+    "no-private-posts": "Keine privaten Beiträge",
+    "items-private": "Artikel, die Sie als privat markieren, werden hier angezeigt.",
+    "liked-posts": "Keine gelikten Beiträge",
+    "items-liked": "Beiträge, die Ihnen gefallen, werden hier angezeigt.",
+    "no-posts-show": "Keine Beiträge zum Anzeigen",
+    "posts": "Beiträge",
+    "followers": "Follower",
+    "following": "Folgt",
+    "follow": "Folgen",
+    "edit": "Profil bearbeiten",
+    "report-user": "Benutzer melden",
+    "tab": {
+      "posts": "Beiträge",
+      "private": "Privat",
+      "liked": "Geliked"
+    }
+  },
+  "registration": {
+    "joinCommunity": "Treten Sie der Community bei.",
+    "createAccount": "Konto erstellen",
+    "startJourney": "Beginnen Sie noch heute Ihre Wunschlistenreise.",
+    "placeholder": {
+      "username": "Benutzername",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen"
+    },
+    "passwordMismatch": "Passwörter stimmen nicht überein.",
+    "failedDefault": "Registrierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "createAccountButton": "Konto erstellen",
+    "termsPrefix": "Durch das Erstellen eines Kontos stimmen Sie unseren",
+    "termsLink": "Nutzungsbedingungen",
+    "or": "Oder",
+    "signUpWithGoogle": "Mit Google registrieren",
+    "hasAccountPrefix": "Bereits ein Konto?",
+    "loginLink": "Anmelden"
+  },
+  "reportModal": {
+    "title": "Inhalt melden",
+    "subtitle": "Warum melden Sie diese(n) {{entityType}}? Ihr Bericht ist anonym.",
+    "submitButton": "Bericht senden",
+    "submittingButton": "Wird gesendet...",
+    "cancelButton": "Abbrechen",
+    "closeButton": "Schließen",
+    "successTitle": "Vielen Dank!",
+    "successMessage": "Ihr Bericht hilft uns, die Community sicher zu halten. Unsere Moderatoren werden ihn in Kürze überprüfen.",
+    "errorDefault": "Bericht konnte nicht gesendet werden. Sie haben diesen Inhalt möglicherweise bereits gemeldet.",
+    "errorNoReason": "Bitte wählen Sie einen Grund für den Bericht aus.",
+    "reasons": {
+      "spam": "Es ist Spam",
+      "nudity": "Nacktheit oder sexuelle Aktivität",
+      "hateSpeech": "Hassrede oder -symbole",
+      "falseInfo": "Falschinformationen",
+      "scam": "Betrug oder Gaunerei",
+      "other": "Etwas anderes"
+    },
+    "entityTypes": {
+      "POST": "Beitrag",
+      "COMMENT": "Kommentar",
+      "USER": "Benutzer"
+    }
+  },
+  "searchPage": {
+    "title": "Suchergebnisse für:",
+    "noResults": "Keine Benutzer für „{{query}}“ gefunden.",
+    "loading": "Ergebnisse werden geladen..."
+  },
+  "shareModal": {
+    "title": "Beitrag teilen",
+    "subtitle": "Teilen Sie diesen Link mit Ihren Freunden!",
+    "buttonCopy": "Kopieren",
+    "buttonCopied": "Kopiert!",
+    "errorCopy": "Link konnte nicht kopiert werden."
+  },
+  "welcomePage": {
+    "title": "Willkommen bei Wishly, {{username}}!",
+    "subtitle": "Lass uns dein Profil einrichten.",
+    "avatarAlt": "Avatar",
+    "uploadButton": "Foto hochladen",
+    "fullNameLabel": "Vollständiger Name",
+    "fullNamePlaceholder": "Ihr vollständiger Name",
+    "bioLabel": "Bio",
+    "bioPlaceholder": "Erzähl uns etwas über dich...",
+    "submitButton": "Einrichtung abschließen & Erkunden starten",
+    "submitButtonSaving": "Wird gespeichert...",
+    "errorUpload": "Bild-Upload fehlgeschlagen.",
+    "errorProfileUpdate": "Profil-Einrichtung konnte nicht abgeschlossen werden."
+  }
+}
